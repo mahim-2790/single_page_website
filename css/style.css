@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: .75rem 0;
+    line-height: 1.4;
+}
+
+/* utilities */
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.clr-text{
+    color: #93cb52;
+}
+
+.lead-heading{
+    font-size: 4rem;
+    margin-bottom: .75rem;
+    line-height: 1.1;
+}
+
+.m-heading{
+    font-size: 2rem;
+    margin: .75rem;
+    line-height: 1.1;
+}
+
+.lead-text{
+    font-size: 1.2rem;
+    line-height: 2rem; 
+    padding-bottom: 1.2rem;
+}
+
+.btn{
+    display: inline-block;
+    background: #93cb52;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: #7ab436;
+}
+
+.py-1{
+    padding: 1.5rem 0;
+}
+
+/* navbar */
+
+#navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: #fff;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: #fff;
+    padding: .75rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
+}
+
+/* header-showcase */
+#showcase{
+    background: #333 url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* overlay */
+    position: absolute;
+    top: 61px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, .5) ;
+}
+
+/* what section */
+#what h2{
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    padding: 1rem;
+}
+.item{
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+#what .items .item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
