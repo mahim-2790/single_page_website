@@ -64,6 +64,14 @@ p{
 .py-1{
     padding: 1.5rem 0;
 }
+.py-2{
+    padding: 2rem;
+}
+
+.bg-d{
+    background: #333;
+    color: #fff;
+}
 
 /* navbar */
 
@@ -139,4 +147,28 @@ p{
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
+}
+
+/* who section */
+#who{
+    display: flex;
+}
+#who div{
+    flex: 1;
+}
+.who-img{
+    background: #333 url(../img/people.jpg) no-repeat center center/cover;
+}
+
+.who-contain h2{
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.who-list{
+    list-style: none;
+}
+.who-list li{
+    
+    border-bottom: #444 dotted 1px;
+    padding: .75rem 0;
 }
