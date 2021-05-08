@@ -62,10 +62,11 @@
         </div>
     </section>
 
+<!-- who section -->
     <section id="who" class="bg-d">
         <div class="who-img"></div>
-        <div class="who-contain py-2">
-            <h2><span class="clr-text">Who </span>We Are</h2>
+        <div class="who-contain py-2 bg-d">
+            <h2 class="m-heading"><span class="clr-text">Who </span>We Are</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis qui velit magnam, fugit odio ratione vitae itaque, facere animi saepe molestias aperiam quibusdam dolore voluptas? Dolor odio quos ipsam quod?</p>
             <h3>Our <span class="clr-text">Team</span></h3>
             <ul class="who-list">
@@ -77,5 +78,62 @@
             </ul>
         </div>
     </section>
+
+    <!-- clients section -->
+    <section id="clients" class="py-1">
+        <div class="container">
+            <h2 class="m-heading py-2"><span class="clr-text">Our</span> Clients</h2>
+            <div class="items py-1">
+                <div><img src="./img/logos/logo1.png" alt="Clients"></div>
+                <div><img src="./img/logos/logo2.png" alt="Clients"></div>
+                <div><img src="./img/logos/logo3.png" alt="Clients"></div>
+                <div><img src="./img/logos/logo4.png" alt="Clients"></div>
+                <div><img src="./img/logos/logo5.png" alt="Clients"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section id="contact">
+        <div class="cntct-frm py-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form bellow to contact us.</p>
+            <form>
+                <div class="frm-grp">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="frm-grp">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+                <div class="frm-grp">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="Enter Phone Number">
+                </div>
+                <div class="frm-grp">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+                <input class="sub-btn bg-d" type="submit" value="Send">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <!-- footer -->
+    <footer id="ftr" class="bg-d">
+        <div class="container">
+           <p>Copyright &copy; 2019, EdgeLedger, All Rights Reserved</p> 
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHgpsNKC3vv8Gii0CmTBoGK0DE0kgjuqc&callback=initMap">
+    </script>
 </body>
 </html>
