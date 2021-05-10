@@ -1,0 +1,49 @@
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+#navbar .logo{
+    padding-bottom: 1rem;
+}
+
+.lead-heading{
+    font-size: 2rem;
+}
+
+.lead-text{
+    font-size: 1rem;
+    line-height: 2rem; 
+}
+
+#showcase .showcase-content{
+    top: 96px;
+
+}
+
+#what .items{
+    display: block;
+}
+
+#who .who-img{
+    display: none;
+}
+
+#clients .container .items img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#clients .container h2{
+    margin: 5px;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+#contact{
+    flex-direction: column;
+}
+
+.map{
+    height: 200px;
+}

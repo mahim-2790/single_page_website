@@ -84,7 +84,6 @@ p{
     justify-content: space-between;
     z-index: 1;
     padding: 1rem;
-    opacity: .9;
 }
 
 #navbar ul{
@@ -191,9 +190,6 @@ p{
 #contact .cntct-frm{
     background: #93cb52;
     color: #fff;
-}
-
-#contact .cntct-frm{
     flex: 1;
 }
 
